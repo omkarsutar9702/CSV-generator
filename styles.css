@@ -1,0 +1,58 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212; /* Matte black background color */
+    color: #ff8c00; /* White text color for better readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card-container {
+    background-color: #1f1f1f; /* Dark matte black background color for the card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align elements vertically and distribute space evenly */
+    align-items: center;
+    color: #ff8c00; /* Matte orange text color */
+    
+    /* Adjusted height properties */
+    max-width: 400px; /* Adjusted max width for responsiveness */
+    margin: auto; /* Center the card horizontally */
+    height: 80vh; /* Set the height to 80% of the viewport height */
+}
+
+h1, label {
+    color: #ff8c00; /* Google Blue for headings and labels */
+}
+
+input, button {
+    margin: 8px 0; /* Reduced space between label and input */
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #070707; /* Matte orange text color */
+    border: 1px solid #555; /* Dark gray border for better visibility */
+    border-radius: 8px; /* Add curve to input fields and button */
+    font-family: monospace; /* Set font type to monospace */
+}
+
+button {
+    background-color: #ce7202; /* Google Blue */
+    color: #fff; /* White text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff8c00; /* Darker blue on hover */
+}
